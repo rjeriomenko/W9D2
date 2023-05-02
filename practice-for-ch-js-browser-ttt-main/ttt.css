@@ -30,3 +30,8 @@ li:nth-child(2n) {
 li:hover {
     background-color: red;
 }
+
+li {
+    font-size: 100px;
+    color: white;
+}
