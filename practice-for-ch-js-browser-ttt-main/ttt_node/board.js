@@ -99,6 +99,9 @@ class Board {
   }
 
   static isValidPos(pos) {
+    console.log(pos)
+    console.log(pos[0])
+    console.log(pos[1])
     return (0 <= pos[0]) &&
     (pos[0] < 3) &&
     (0 <= pos[1]) &&

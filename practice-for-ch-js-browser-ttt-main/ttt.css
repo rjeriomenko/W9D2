@@ -1,1 +1,32 @@
-/* Your code here */
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 648px; /*adjust later for grid presentation */
+    /* border: 4px solid orange; */
+    align-content: left;
+    padding: 0px;
+}
+
+li {
+    border: 8px solid white;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    list-style-type: none;
+}
+
+li:nth-child(2n) {
+    background-color: black;
+}
+
+li:hover {
+    background-color: red;
+}
